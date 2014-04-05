@@ -42,7 +42,7 @@ Usage:
 
 Example
 ------
-![](https://github.com/secfree/cttfiles/blob/master/cttfiles.png)
+![](https://github.com/secfree/cttfiles/blob/master/cttfiles.jpg)
 
 
 Copyright (c) 2014 secfree, released under the GPL license
