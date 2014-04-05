@@ -14,7 +14,7 @@ Usage
 ------
 ```
 Usage:
-        create_test_files [options] directory
+        cttfiles.py [options] directory
 
     Options:
         -d    create directories, default false, Create directories recursivly, 
