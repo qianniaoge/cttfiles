@@ -91,7 +91,6 @@ def create_dir_recursivly(
                 )
 
 
-
 def get_random_content(minsize, maxsize):
     """
     create random file content.
@@ -209,8 +208,8 @@ if __name__ == "__main__":
             ['depth=', 'dnum=', 'dprefix=', 'dsuffix=', 
             'exts=', 'from_dirs=', 'from_files=', 'fprefix=', 'fsuffix=', 'fnum=', 'fminsize=', 'fmaxsize=']
             )
-    except getopt.GeoptError as err:
-        print >> stderr, str(err)
+    except getopt.GetoptError as err:
+        print >> sys.stderr, str(err)
         sys.exit(-1)
 
     if not args:
@@ -265,7 +264,7 @@ if __name__ == "__main__":
         if t == '--fsuffix':
             fsuffix = a
         if t == '--fnum':
-            fum = int(a)
+            fnum = int(a)
         if t == '--fmsize':
             fmsize = int(a)
 
