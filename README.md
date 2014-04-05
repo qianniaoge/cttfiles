@@ -42,6 +42,9 @@ Usage:
 
 Example
 ------
+```
+$ python cttfiles.py -m --depth=2 --dnum=3 --dprefix='dp' --dsuffix='ds' --exts='php,jsp' --from_files="1.jsp,1.php" --fprefix="fp" --fsuffix="fs" --fnum=2 tmp_dir
+```
 ![](https://github.com/secfree/cttfiles/raw/master/cttfiles.jpg)
 
 
